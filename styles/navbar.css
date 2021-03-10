@@ -1,0 +1,56 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    /*try to make nav bar scroll w page*/
+  }
+  li {
+    float: left;
+    background-color: black;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  #sitemap {
+    float: right;
+  }
+  #home:hover {
+    border-bottom: 5px solid #bb1919;
+  }
+  #experience:hover {
+    border-bottom: 5px solid #ffd230;
+  }
+  #reel:hover {
+    border-bottom: 5px solid #0068ff;
+  }
+  #life:hover {
+    border-bottom: 5px solid #0052a1;
+  }
+  #recommendations:hover {
+    border-bottom: 5px solid #589e50;
+  }
+  #faq:hover {
+    border-bottom: 5px solid #002856;
+  }
+  #contact:hover {
+    border-bottom: 5px solid #482878;
+  }
+  #sitemap:hover {
+    border-bottom: 5px solid lightcoral;
+  }
+  img {
+    width: 20%;
+    height: 20%;
+  }
