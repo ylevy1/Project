@@ -18,25 +18,22 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 12px;
     text-decoration: none;
     font-size: 13px;
     font-weight: bold;
   }
-  #sitemap {
+  /*#sitemap {
     float: right;
-  }
+  }*/
   #home:hover {
     border-bottom: 5px solid #bb1919;
   }
+  #about:hover {
+    border-bottom: 5px solid lightblue;
+  }
   #experience:hover {
     border-bottom: 5px solid #ffd230;
-  }
-  #reel:hover {
-    border-bottom: 5px solid #0068ff;
-  }
-  #life:hover {
-    border-bottom: 5px solid #0052a1;
   }
   #recommendations:hover {
     border-bottom: 5px solid #589e50;
@@ -50,7 +47,4 @@ ul {
   #sitemap:hover {
     border-bottom: 5px solid lightcoral;
   }
-  img {
-    width: 20%;
-    height: 20%;
-  }
+  

@@ -5,35 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
-    <link rel="stylesheet" type="text/css" href="styles/navbar.css"/>
-      
+    <link rel="stylesheet" type="text/css" href="styles/navbar.css" />
+    <style>
+        img {
+    width: 20%;
+    height: 20%;
+  }
+    </style>
   </head>
   <body>
     <ul>
       <li><a id="home" href="index.html">Home</a></li>
+      <li><a id="about" href="About.html">About</a></li>
       <li><a id="experience" href="experience.html">My Experience</a></li>
       <li>
-        <a id="recommendations" href="recommendations.html">Recommendations</a>
+        <a id="recommendations" href="recommendations.html">Class Recommendations</a>
       </li>
       <li><a id="faq" href="faq.html">FAQ</a></li>
       <li><a id="contact" href="contact.html">Contact Us</a></li>
       <li><a id="sitemap" href="sitemap.html">Site Map</a></li>
     </ul>
     <div>
-      <h1>Madrid Abroad</h1> <!--!!!!!Insert title for all images!!!!!-->
+      <h1>Madrid Abroad</h1>
+  
     </div>
-    <a href=""
-      ><img id="ieuniv" src="images/ieuniv.jfif" alt="IE University campus" 
-    /></a>
-    <a href=""
-      ><img id="parque" src="images/parque-retiro.jpg" alt="Parque Del Retiro"
-    /></a>
-    <a href=""><img id="paella" src="images/paella.jfif" alt="Paella" /></a>
-    <a href=""
-      ><img
-        id="friends"
-        src="images/Madrid friends.jpeg"
-        alt="Madrid with Friends"
-    /></a>
+    <div class="responsive">
+      <div class="gallery">
+        <img
+          id="ieuniv"
+          src="images/ieuniv.jfif"
+          alt="IE University campus"
+          title="IE University campus"
+        />
+        <div class="desc">IE University's Study Abroad Campus</div>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="gallery">
+        <img
+          id="parque"
+          src="images/parque-retiro.jpg"
+          alt="Parque Del Retiro"
+          title="Parque del Retiro"
+        />
+        <div class="desc">El Parque Del Retiro</div>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="gallery">
+        <img id="paella" src="images/paella.jfif" alt="Paella" title="Paella"/>
+        <div class="desc">The typical Spanish dish: Paella</div>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="gallery">
+        <img
+          id="friends"
+          src="images/Madrid friends.jpeg"
+          alt="Madrid with Friends"
+          title="Madrid with Friends"
+        />
+        <div class="desc">Me with the friends I made Abroad</div>
+      </div>
+    </div>
   </body>
 </html>
