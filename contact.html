@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Page</title>
     <link rel="stylesheet" type="text/css" href="styles/navbar.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-R3RQE00TJV"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-R3RQE00TJV");
+    </script>
     <style>
       h1 {
         text-align: center;
@@ -26,7 +40,9 @@
       legend {
         font-weight: bold;
       }
-      #bold {font-weight: bold;}
+      #bold {
+        font-weight: bold;
+      }
     </style>
   </head>
   <body>
@@ -35,7 +51,9 @@
       <li><a id="about" href="about.html">About</a></li>
       <li><a id="experience" href="experience.html">My Experience</a></li>
       <li>
-        <a id="recommendations" href="recommendations.html">Class Recommendations</a>
+        <a id="recommendations" href="recommendations.html"
+          >Class Recommendations</a
+        >
       </li>
       <li><a id="faq" href="faq.html">FAQ</a></li>
       <li><a id="contact" href="contact.html">Contact Us</a></li>
@@ -82,7 +100,9 @@
           </div>
           <div>
             <div>
-              <label for="comments">Do you have any questions or feedback?</label>
+              <label for="comments"
+                >Do you have any questions or feedback?</label
+              >
             </div>
             <textarea
               id="comments"
@@ -92,7 +112,7 @@
             ></textarea>
           </div>
           <div id="bold">
-          Someone from our team will reach out within 24 hours! 
+            Someone from our team will reach out within 24 hours!
           </div>
           <input type="checkbox" id="yes" name="updates" value="yes" checked />
           <label for="yes">Sign me up for email updates</label>

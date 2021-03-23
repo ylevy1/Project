@@ -6,11 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
     <link rel="stylesheet" type="text/css" href="styles/navbar.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-R3RQE00TJV"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-R3RQE00TJV");
+    </script>
     <style>
-        img {
-    width: 20%;
-    height: 20%;
-  }
+      img {
+        width: 20%;
+        height: 20%;
+      }
     </style>
   </head>
   <body>
@@ -19,7 +33,9 @@
       <li><a id="about" href="about.html">About</a></li>
       <li><a id="experience" href="experience.html">My Experience</a></li>
       <li>
-        <a id="recommendations" href="recommendations.html">Class Recommendations</a>
+        <a id="recommendations" href="recommendations.html"
+          >Class Recommendations</a
+        >
       </li>
       <li><a id="faq" href="faq.html">FAQ</a></li>
       <li><a id="contact" href="contact.html">Contact Us</a></li>
@@ -27,7 +43,6 @@
     </ul>
     <div>
       <h1>Madrid Abroad</h1>
-  
     </div>
     <div class="responsive">
       <div class="gallery">
@@ -53,7 +68,7 @@
     </div>
     <div class="responsive">
       <div class="gallery">
-        <img id="paella" src="images/paella.jfif" alt="Paella" title="Paella"/>
+        <img id="paella" src="images/paella.jfif" alt="Paella" title="Paella" />
         <div class="desc">The typical Spanish dish: Paella</div>
       </div>
     </div>
