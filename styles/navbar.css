@@ -32,13 +32,13 @@ ul {
   #about:hover {
     border-bottom: 5px solid lightblue;
   }
-  #experience:hover {
+  #before:hover {
     border-bottom: 5px solid #ffd230;
   }
   #recommendations:hover {
     border-bottom: 5px solid #589e50;
   }
-  #faq:hover {
+  #travel:hover {
     border-bottom: 5px solid #002856;
   }
   #contact:hover {

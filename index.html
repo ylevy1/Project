@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Everything you need to know about the study abroad process! From application to departure, I go through how I decided to study abroad, and my experience in Madrid. "
+    />
+    <meta
+      name="keywords"
+      content="studyabroad, study abroad, madrid, education abroad, portugal, milan, lisbon, italy, college, IE University, Bocconi University, exchange program"
+    />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <title>Home Page</title>
     <link rel="stylesheet" type="text/css" href="styles/navbar.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -21,9 +30,38 @@
       gtag("config", "G-R3RQE00TJV");
     </script>
     <style>
-      img {
-        width: 20%;
-        height: 20%;
+      h1 {
+        text-align: center;
+      }
+      p {
+        width: 90%;
+        padding: auto;
+        margin: 20px;
+        text-align: center;
+      }
+      div.gallery {
+        margin: 5px;
+        width: 375px;
+        align-content: center;
+      }
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+      }
+      .desc {
+        text-align: center;
+        font-weight: bold;
       }
     </style>
   </head>
@@ -31,55 +69,90 @@
     <ul>
       <li><a id="home" href="index.html">Home</a></li>
       <li><a id="about" href="about.html">About</a></li>
-      <li><a id="experience" href="experience.html">My Experience</a></li>
+      <li><a id="before" href="before.html">Before Leaving</a></li>
       <li>
         <a id="recommendations" href="recommendations.html"
           >Class Recommendations</a
         >
       </li>
-      <li><a id="faq" href="faq.html">FAQ</a></li>
+      <li><a id="travel" href="travel.html">Traveling While Abroad</a></li>
       <li><a id="contact" href="contact.html">Contact Us</a></li>
       <li><a id="sitemap" href="sitemap.html">Site Map</a></li>
     </ul>
     <div>
       <h1>Madrid Abroad</h1>
     </div>
+    <div>
+      <p>
+        Welcome to Madrid Abroad! I went to Madrid in the Spring semester of my
+        Junior year of college to study abroad. I made this page to help answer
+        the most common questions that someone might have if they are
+        considering going abroad during their college experience. By clicking on
+        the pictures below, you will be redirected to some of links that I found
+        useful during my research process to choose a country I wanted to apply
+        to. The other links are specific to Madrid and will give you a bit of
+        insight into the incredible Spanish culture.
+      </p>
+      <p>
+        I hope you enjoy the rest of the content on the website. You will find
+        recommendations for classes to take while at IE University, learn about
+        the process I went through to apply to study abroad, and my journey to
+        actually making it to Europe!
+      </p>
+    </div>
     <div class="responsive">
       <div class="gallery">
-        <img
-          id="ieuniv"
-          src="images/ieuniv.jfif"
-          alt="IE University campus"
-          title="IE University campus"
-        />
+        <a target="_blank" href="https://www.ie.edu/university/">
+          <img
+            id="ieuniv"
+            src="images/ieuniv.jfif"
+            alt="IE University campus"
+            title="IE University campus"
+          />
+        </a>
         <div class="desc">IE University's Study Abroad Campus</div>
       </div>
     </div>
     <div class="responsive">
       <div class="gallery">
-        <img
-          id="parque"
-          src="images/parque-retiro.jpg"
-          alt="Parque Del Retiro"
-          title="Parque del Retiro"
-        />
+        <a
+          target="_blank"
+          href="https://www.esmadrid.com/en/tourist-information/parque-del-retiro?utm_referrer=https%3A%2F%2Fwww.google.com%2F"
+        >
+          <img
+            id="parque"
+            src="images/parque-retiro.jpg"
+            alt="Parque Del Retiro"
+            title="Parque del Retiro"
+          />
+        </a>
         <div class="desc">El Parque Del Retiro</div>
       </div>
     </div>
     <div class="responsive">
       <div class="gallery">
-        <img id="paella" src="images/paella.jfif" alt="Paella" title="Paella" />
-        <div class="desc">The typical Spanish dish: Paella</div>
+        <a
+          target="_blank"
+          href="https://cafedelites.com/classic-spanish-paella/"
+        >
+          <img id="paella" src="images/paella.jfif" alt="Paella" title="Paella"
+        /></a>
+        <div class="desc">Paella, a typical Spanish dish</div>
       </div>
     </div>
     <div class="responsive">
       <div class="gallery">
-        <img
-          id="friends"
-          src="images/Madrid friends.jpeg"
-          alt="Madrid with Friends"
-          title="Madrid with Friends"
-        />
+        <a
+          target="_blank"
+          href="https://www.noodle.com/articles/an-introverts-guide-to-making-friends-while-studying-abroad"
+        >
+          <img
+            id="friends"
+            src="images/Madrid-friends.jpeg"
+            alt="Madrid with Friends"
+            title="Madrid with Friends"
+          />
+        </a>
         <div class="desc">Me with the friends I made Abroad</div>
       </div>
     </div>
