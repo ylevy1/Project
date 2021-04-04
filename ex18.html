@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 18</title>
+  </head>
+  <body>
+      <img id="tiger" src="images/tiger1.jpg" onload=slideshow() alt="tiger" title="tiger">
+
+      
+    <script>
+      const slides = ["images/tiger1.jpg", "images/tiger2.jpg"] //more;
+      let i=0;
+
+      function slideshow() {
+          alert("loaded");
+          let tigerImage = document.getElementById("tiger");
+          if( i === slides.length) {
+              i=0;
+          }
+          tigerImage.src = slides[i];
+          i++;
+          setTimeout(slideShow,1000);
+      }
+      
+    </script>
+  </body>
+</html>
