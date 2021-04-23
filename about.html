@@ -48,9 +48,7 @@
 
       }
       img:hover {
-        width: 22%;
-        height: 22%;
-        border: 1px solid #777;
+        border: "";
 
       }
     </style>
@@ -110,4 +108,22 @@
       </p>
     </div>
   </body>
+  <script>
+    //Change the style of some element in response to the user’s action. (2)
+    //Change image(s) using mouseover and mouseout. (2)
+    function bigger() {
+      let pic = document.getElementById("yael");
+      pic.style.border= "3px solid #777";
+      pic.style.width="22%";
+    }
+    function smaller() {
+      let pic = document.getElementById("yael");
+      pic.style.border= "";
+      pic.style.width="20%";
+    }
+    document.getElementById("yael").onmouseover = bigger;
+    document.getElementById("yael").onmouseleave = smaller;
+
+
+  </script>
 </html>

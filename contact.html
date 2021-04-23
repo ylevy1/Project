@@ -13,7 +13,7 @@
       content="studyabroad, study abroad, madrid, education abroad, portugal, milan, lisbon, italy, college, IE University, Bocconi University, exchange program"
     />
     <title>Contact Page</title>
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="styles/navbar.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
@@ -120,17 +120,43 @@
               cols="70"
             ></textarea>
           </div>
-          <div id="bold">
-            Someone from our team will reach out within 24 hours!
-          </div>
+          <div id="bold"></div>
           <input type="checkbox" id="yes" name="updates" value="yes" checked />
           <label for="yes">Sign me up for email updates</label>
           <div>
-            <input type="submit" value="Submit" name="submit" />
+            <input id="submit" type="submit" value="Submit" name="submit" />
             <input type="reset" value="Reset" name="reset" />
           </div>
         </fieldset>
       </div>
     </form>
+    <script>
+          //Change the text on a page in response to the user’s action. (2)
+          //Validate form 
+          function validate() {
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let reach = document.getElementById("bold");
+            if (name == "") {
+              alert("Please enter name!");
+              return false;
+            }
+            else if (email == "") {
+              alert("Please enter email!");
+              return false;
+            }
+            else {
+              reach.innerHTML =
+                "Someone from our team will reach out within 24 hours!";
+            }
+          }
+          //Animate something or add some other functionalities besides what is listed above. (3)
+          function type() {
+            document.getElementById("comments").style.backgroundColor = "pink";
+          }
+
+          document.getElementById("submit").onclick = validate;
+          document.getElementById("comments").onkeypress = type;
+    </script>
   </body>
 </html>
